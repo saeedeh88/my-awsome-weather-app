@@ -1,4 +1,40 @@
-h1 {
+body {
+  font-family: sans-serif;
+}
+.h1 {
   text-align: center;
-  color: rgb(210, 147, 20);
+  -webkit-text-fill-color: darkolivegreen;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+h3 {
+  -webkit-text-rule-color: gray;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 30px;
+}
+h2 {
+  text-align: center;
+}
+h5 {
+  text-align: center;
+}
+P {
+  text-align: center;
+}
+.list-group-item {
+  font-size: 20px;
+}
+.h1,
+.h3,
+.h4 {
+  list-style-type: none;
+}
+.list-group {
+  background-color: rgb(243, 243, 235);
+}
+.card-body {
+  background-color: darkseagreen;
+}
+.header {
+  display: block;
+  margin: 0 auto;
 }
