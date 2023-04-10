@@ -3,13 +3,14 @@ body {
 }
 .h1 {
   text-align: center;
-  -webkit-text-fill-color: darkolivegreen;
+  -webkit-text-fill-color: rgb(33, 75, 53);
   font-family: Verdana, Geneva, Tahoma, sans-serif;
+  text-transform: capitalize;
 }
 h3 {
-  -webkit-text-rule-color: gray;
+  -webkit-text-rule-color: rgb(31, 53, 38);
   font-family: Verdana, Geneva, Tahoma, sans-serif;
-  font-size: 30px;
+  font-size: 25px;
 }
 h2 {
   text-align: center;
@@ -27,6 +28,9 @@ P {
 .h3,
 .h4 {
   list-style-type: none;
+  text-transform: capitalize;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  color: cadetblue;
 }
 .list-group {
   background-color: rgb(243, 243, 235);
@@ -40,4 +44,8 @@ P {
 }
 .link {
   text-align: center;
+}
+img {
+  display: block;
+  margin: 0 auto;
 }

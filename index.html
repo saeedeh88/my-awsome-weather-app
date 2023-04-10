@@ -56,21 +56,28 @@
               </form>
             </li>
             <br />
-            <li class="h4" id="humidity">💧(%):<strong>30%</strong></li>
+            <li class="h4">
+              Temperature: <strong id="temperature"></strong
+              ><span class="units"
+                ><a href="#" id="celcius-link" class="active">°C</a> |
+                <a href="#" id="fahrenheit-link">°F</a></span
+              >
+            </li>
+            <li class="h4" id="humidity">
+              Humidity(💧):<strong id="humidity-percentage">30%</strong>
+            </li>
             <li class="h4" id="wind-speed">
-              💨(km/hr):<strong>10 km/hr</strong>
+              Wind Speed(💨):<strong id="wind">10 km/hr</strong>
             </li>
           </ul>
         </div>
         <div class="col-6">
           <ul class="list-group">
             <li class="h1" id="name">Tehran</li>
-            <li class="h1" id="main-description">⛅</li>
-            <li class="h3">Wedensday<br /></li>
+            <img src="" alt="" id="icon" class="float-left" width="180px" />
+            <li class="h4" id="main-description">⛅</li>
+            <li class="h4">Last updated: <span id="time"></span></li>
 
-            <li class="h4" id="degree">
-              <strong>17°</strong>
-            </li>
             <br />
           </ul>
         </div>
